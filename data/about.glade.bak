@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?> <!--*- mode: xml -*-->
+<!DOCTYPE glade-interface SYSTEM "http://glade.gnome.org/glade-2.0.dtd">
+
+<glade-interface>
+<requires lib="gnome"/>
+
+<widget class="GnomeAbout" id="about">
+  <property name="border_width">5</property>
+  <property name="visible">True</property>
+  <property name="destroy_with_parent">False</property>
+  <property name="icon">kivio.png</property>
+  <property name="role"></property>
+  <property name="decorated">True</property>
+  <property name="skip_taskbar_hint">False</property>
+  <property name="skip_pager_hint">False</property>
+  <property name="type_hint">GDK_WINDOW_TYPE_HINT_NORMAL</property>
+  <property name="gravity">GDK_GRAVITY_STATIC</property>
+  <property name="focus_on_map">True</property>
+  <property name="logo">bender.png</property>
+  <property name="copyright" translatable="yes">(C) 2007 Sergio Cuellar Valdes</property>
+  <property name="comments" translatable="yes">tx8 Visual Command Center</property>
+  <property name="authors">Sergio Cuellar Valdes
+&lt;herrsergio@gmail.com&gt;</property>
+  <property name="translator_credits" translatable="yes">translator_credits</property>
+  <signal name="destroy" handler="on_about_destroy" last_modification_time="Mon, 24 Oct 2005 16:12:46 GMT"/>
+</widget>
+
+</glade-interface>

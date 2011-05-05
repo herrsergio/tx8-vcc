@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Name=tx8-vcc2 Version 0.1
+Comment=tx8-vcc2 Version 0.1
+Exec=tx8-vcc2
+Icon=@PACKAGE_PIXMAPS_DIR@/ 
+Terminal=false
+MultipleArgs=false
+Type=Application
+
